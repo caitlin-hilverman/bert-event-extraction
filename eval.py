@@ -11,6 +11,7 @@ from data_load import ACE2005Dataset, pad, all_triggers, all_entities, all_posta
 from utils import calc_metric, find_triggers
 
 
+
 def eval(model, iterator, fname):
     model.eval()
 
